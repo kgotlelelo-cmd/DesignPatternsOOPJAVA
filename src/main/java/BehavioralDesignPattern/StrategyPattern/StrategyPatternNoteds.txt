@@ -1,0 +1,20 @@
+Very important principle #1 in design -> take what varies and encapsulate it ... and it will not affect the rest of
+our code.
+
+    - The code will be much more flexible ... later you can alter or extend the parts that vary without affecting those that
+      does not!!
+
+very important principle #2 in design -> program to an interface/supertype not an implementation !!!
+
+    - Abstract superclass would be perfect too..
+        - the actual runtime object is not locked into the code
+        - the type of variable should be a supertype/interface: can be of any concrete implementation
+
+    - Sometimes it is good to separate behaviours from implementation: easier to reuse it and we can add new behavior
+      without modifying any of our existing behavoir classes !!!
+
+Very important principle #3 in design -> Favor composition over inheritance
+
+    - composition: has a relationship -> it gives you a lot more flexibility
+        1. You can encapsulate stuff into their own set of classes
+        2. You can change behavior at runtime with interfaces so composition is used in several design pattern

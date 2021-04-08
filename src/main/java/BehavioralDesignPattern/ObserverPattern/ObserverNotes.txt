@@ -1,0 +1,15 @@
+Defines a one to many dependency -> if one object change all of its dependency are notified automatically
+
+The observers rely/depend on the subjects
+
+        why is it good? loose coupling !!!
+            - when two objects are loosely coupled, they can interact but they have little knowledge of each other
+            - the only thing the subject know about an observer is that it implements a certain interface
+            - we can add observers whenever we want: just have to implements the observer interface
+            - we can independently reuse subjects or observers
+            - we can change the subject or observer independently
+
+        loosely coupled design is very good: we can build flexible systems that can handle change because the
+        interdependency between objects are minimal.
+
+very important principle in design -> use loosely coupled designs between objects that interacts
